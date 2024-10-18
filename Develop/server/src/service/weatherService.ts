@@ -123,7 +123,7 @@ class WeatherService {
   // TODO: Complete buildForecastArray method
   private async buildForecastArray(coordinates: Coordinates) {
     try {
-      const response = await fetch(`${this.baseURL}/data/2.5/forecast?${this.buildWeatherQuery(coordinates)}&appid=${this.apiKey}`);
+      const response = await fetch(`${this.baseURL}/data/2.5/forecast?${this.buildWeatherQuery(coordinates)}&appid=${this.apiKey}&units=imperial`);
       const data = await response.json();
       return data
     } catch (error) {
