@@ -15,6 +15,8 @@ One can enter a city in the search bar and upon pressing search the currentweath
 
 ## features 
 This app is deployed on a server and stores data. It is also equipped with the open weather API in order to retrieve weather data. The link to the server can be found here:
+# https://week-9-challenge-4.onrender.com 
+Note, I had some issues with the deployement. I think I got everything resolved but let me know if you have any tips.
 
 ## development
 I developed the server side of the application using multiple fetch requsts to the API as well and handling and destructuring the data that came back. I had to make sure the data that is sent back to the client side matches what that side of the application needs in order to render the items. This involved using alot of console logging to print and make sense of the data that I was getting back from the API.
